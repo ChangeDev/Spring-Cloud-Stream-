@@ -13,7 +13,7 @@
 &emsp;&emsp;**Spring Cloud Stream**是一个构建消息驱动微服务应用的框架。它基于**Spring Boot**构建独立的、生产级的**Spring**应用，并使用**Spring Integration**为消息代理提供链接。
 &emsp;&emsp;你可以添加```@EnableBinding```注解到你的应用中来快速连接到消息代理，添加```@StreamListener```注解到一个方法上，这个方法会接收到Stream处理事件。下面是一个接收外部消息的简单接收应用。
 ```java
-SpringBootApplication
+@SpringBootApplication
 @EnableBinding
 public class VoteRecordingSinkApplication {
 
