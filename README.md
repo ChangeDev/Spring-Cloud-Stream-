@@ -14,7 +14,7 @@
 &emsp;&emsp;你可以添加```@EnableBinding```注解到你的应用中来快速连接到消息代理，添加```@StreamListener```注解到一个方法上，这个方法会接收到Stream处理事件。下面是一个接收外部消息的简单接收应用。
 ```java
 SpringBootApplication
-@(Spring Cloud Stream)
+@EnableBinding
 public class VoteRecordingSinkApplication {
 
   public static void main(String[] args) {
