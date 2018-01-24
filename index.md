@@ -1,8 +1,6 @@
-# SCSt
+## SCSt Kafka接入
 
-##SCSt Kafka接入
-
-####mvn依赖：
+#### mvn依赖：
 ```
 	<dependencyManagement>
         <dependencies>
